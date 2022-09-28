@@ -1,0 +1,61 @@
+.myCard {
+    min-width: 300px;
+    max-width: 300px;
+    height: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 1%;
+    border: 1px solid white;
+
+}
+
+.myCard:hover {
+    border-color: #621fff;
+}
+
+.product-carousel {
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+}
+
+.product-container {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 87%;
+    margin: auto;
+    height: 200px;
+    padding-bottom: 20px;
+}
+
+.product-carousel button {
+    border: none;
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button p {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 0px 12px;
+    border-radius: 50%;
+    color: #621fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 5px;
+
+}
+
+.next-btn {
+    right: 40px;
+
+}
+
+.pre-btn {
+    left: 40px;
+
+}
