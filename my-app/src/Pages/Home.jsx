@@ -8,6 +8,8 @@ import HomeCardCrowser2 from "../Components/CardCrowsers/HomeCardCrowser2"
 import HomeCardCrowser3 from "../Components/CardCrowsers/HomeCardCrowser3"
 import { SimpleGrid, Box } from '@chakra-ui/react'
 import HomeCardCrowser4 from "../Components/CardCrowsers/HomeCardCrowser4"
+import HomeCardCrowser5 from "../Components/CardCrowsers/HomeCardCrowser5"
+import HomeCardCrowser6 from "../Components/CardCrowsers/HomeCardCrowser6"
 
 export default function Home() {
   const [TopCompanies, setTopCompanies] = React.useState(false)
@@ -25,7 +27,7 @@ export default function Home() {
           <strong>Career Path</strong>
         </div>
         <div>
-          <img src="https://www.kindpng.com/picc/m/450-4505870_transparent-dream-job-clipart-circle-hd-png-download.png " alt="" />
+          <img src="https://thumbs.dreamstime.com/b/concept-dream-job-icon-modern-flat-thin-line-design-vector-illustration-concept-dream-job-icon-modern-flat-thin-line-design-212037333.jpg" alt="" />
           <strong>Dream Job</strong>
         </div>
       </div>
@@ -80,19 +82,37 @@ export default function Home() {
         </SimpleGrid>
       </div>
       <p className='butHeading' >View All</p>
-      <h1 style={{ color: 'gray', textAlign: 'center', fontSize: '20px',marginBottom:'10px' }} >-OR-</h1>
+      <h1 style={{ color: 'gray', textAlign: 'center', fontSize: '20px', marginBottom: '10px' }} >-OR-</h1>
       <div className='flex02' >
         <div>
           <h1 className='heading' >Explore Dream Career of Your Choice</h1>
           <br />
           <button className='btny' >Search Your Hire</button>
         </div>
-       <div>
-       <img src="https://www.shine.com/next/static/images/explore-dream-career.png" alt="" />
-       </div>
+        <div>
+          <img src="https://www.shine.com/next/static/images/explore-dream-career.png" alt="" />
+        </div>
       </div>
       <h1 className='heading' >Explore Our Premium Services</h1>
-      <HomeCardCrowser4/>
+      <HomeCardCrowser4 />
+      <p className='butHeading' >View All</p>
+      <h1 className='heading' >Popular Courses</h1>
+      <div className='flex3' >
+        <p style={{ borderBottom: '3px solid blue', color: 'black' }} >All</p>
+        <p>Sales and Marketing</p>
+        <p>Banking Finance</p>
+        <p>Personal Development</p>
+        <p>IT- Information Technology</p>
+        <p>HR - Human Resource</p>
+        <p>Management</p>
+      </div>
+      <HomeCardCrowser5 />
+      <p className='butHeading' >View All</p>
+      <div style={{ backgroundColor: '#f0f0f0',padding:'20px 0px' }} >
+        <h1 className='heading' >Latest from Blog</h1>
+        <HomeCardCrowser6 />
+        <p className='butHeading' >View All</p>
+      </div>
     </div>
   )
 }

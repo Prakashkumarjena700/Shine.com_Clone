@@ -1,7 +1,7 @@
 import React from 'react'
-import {MyCardHome4} from '../CardCrowsers/MyCard'
 import './MyCard.css'
 import {premium} from "./HomeCardCrowserData"
+import {MyCardHome4} from '../CardCrowsers/MyCard'
 
 export default function HomeCardCrowser4() {
     var box4 = document.querySelector('.product-container4');
@@ -23,7 +23,12 @@ export default function HomeCardCrowser4() {
 
             <div className='product-container4' >
                {
-                premium.map((ele)=> <MyCardHome4 img={ele.img} /> )
+                premium.map((ele)=> <MyCardHome4 
+                    img={ele.img}
+                    title={ele.title}
+                    dis={ele.dis}
+                    price={ele.price}
+                /> )
             
                }
             </div>

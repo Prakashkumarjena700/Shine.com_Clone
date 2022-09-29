@@ -9,6 +9,35 @@
     line-height: 25px;
     
 }
+.myCard4{
+    min-width: 300px;
+    max-width: 300px;
+    height: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 1%;
+    border: 1px solid white;
+}
+.myCard5{
+    min-width: 300px;
+    max-width: 300px;
+    height: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 1%;
+    padding: 10px;
+    margin-top: -15px;
+}
+.myCard6{
+    min-width: 300px;
+    max-width: 300px;
+    height: 100%;
+    margin: 1%;
+    margin-top: -15px;
+    background-color: white;
+    border-radius: 5px;
+}
+.myCard5 img{
+    border-radius: 50%;
+}
 
 .myCard:hover {
     border-color: #621fff;
@@ -53,8 +82,25 @@
     scroll-behavior: smooth;
     width: 87%;
     margin: auto;
-    height: 200px;
+    height: 370px;
     padding-bottom: 20px;
+}
+.product-container5 {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 87%;
+    margin: auto;
+    height: 280px;
+    padding-bottom: 20px;
+}
+.product-container6 {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 87%;
+    margin: auto;
+    height: 280px;
 }
 
 .product-carousel button {
@@ -98,4 +144,7 @@ button p {
 .colv{
     color: #8652ff;
     font-weight: bold;
+}
+.innDiv{
+    padding: 20px;
 }
