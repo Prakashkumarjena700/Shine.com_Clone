@@ -23,7 +23,11 @@ export default function HomeCardCrowser1() {
 
             <div className='product-container' >
                {
-                crowser1.map((ele)=> <MyCard cardno={ele.title} />)
+                crowser1.map((ele)=> <MyCard cardno={ele.title} 
+                com={ele.com} 
+                loc={ele.loc}
+                exp={ele.exp}
+                />)
                }
             </div>
         </div>

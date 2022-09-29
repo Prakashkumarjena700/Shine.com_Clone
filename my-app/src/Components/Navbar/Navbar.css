@@ -103,3 +103,9 @@
     color: #8652ff;
     font-size: 13px;
 }
+.navbar{
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    background-color: white;
+}

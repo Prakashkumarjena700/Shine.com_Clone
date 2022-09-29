@@ -6,6 +6,7 @@ import Blog from '../Pages/Blog'
 import CurrerGuidance from '../Pages/CurrerGuidance'
 import Search from '../Pages/Search'
 import Jobalert from '../Pages/Jobalert'
+import Register from '../Pages/Register'
 
 export default function AllRoutes() {
   return (
@@ -16,6 +17,7 @@ export default function AllRoutes() {
       <Route path='/currerguidance' element={<CurrerGuidance/>} ></Route>
       <Route path='/search' element={<Search/>} ></Route>
       <Route path='/jobalert' element={<Jobalert/>} ></Route>
+      <Route path='/register' element={<Register/>} ></Route>
     </Routes>
   )
 }
