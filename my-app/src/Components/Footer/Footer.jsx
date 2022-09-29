@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
     return (
-        <div style={{backgroundColor:'#fafaff',paddingBottom:'20px'}} >
-            <SimpleGrid className='footer'  columns={5} spacing={10}>
+        <div style={{ backgroundColor: '#fafaff', paddingBottom: '20px' }} >
+            <SimpleGrid className='footer' columns={5} spacing={10}>
                 <Box height='230px'>
                     <img width="75px" src="https://www.shine.com/next/static/images/shine-logo.png" alt="" />
                     <p>Great career starts here!</p>
@@ -49,12 +49,8 @@ export default function Footer() {
                 </Box>
             </SimpleGrid>
             <hr />
-            <SimpleGrid  className='footerBottom' columns={2} spacing={0}>
-                <Box bg='#fafaff' height='25px'>Feedback | FAQsAbout | UsContact | UsPrivacy | PolicyCookie | PolicyFraud | AlertBusiness | NewsEnglish | NewsTerms & Conditions | Disclaimer</Box>
-                <Box bg='#fafaff' height='25px' style={{textAlign:'end'}} >© 2022 HT Media</Box>
-                <Box bg='#fafaff' height='25px'>Report a Job Posting</Box>
-                <Box bg='#fafaff' height='25px' style={{textAlign:'end'}} >Limited</Box>
-            </SimpleGrid>
+            <p style={{fontSize:'11px',textAlign:'center', marginTop:'20px'}} >Feedback | FAQs | About Us | Contact Us | Privacy Policy | Cookie Policy | Fraud Alert | Business News | English News | Terms & Conditions | Disclaimer | Report a Job Posting
+                © 2022 HT Media Limited</p>
         </div>
     )
 }

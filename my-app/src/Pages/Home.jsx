@@ -10,11 +10,14 @@ import { SimpleGrid, Box } from '@chakra-ui/react'
 import HomeCardCrowser4 from "../Components/CardCrowsers/HomeCardCrowser4"
 import HomeCardCrowser5 from "../Components/CardCrowsers/HomeCardCrowser5"
 import HomeCardCrowser6 from "../Components/CardCrowsers/HomeCardCrowser6"
+import Navbar from "../Components/Navbar/Navbar"
+import Footer from '../Components/Footer/Footer';
 
 export default function Home() {
   const [TopCompanies, setTopCompanies] = React.useState(false)
   return (
     <div>
+      <Navbar/>
       <div className='speace' ></div>
       <Apps />
       <div className='first3flex' >
@@ -113,6 +116,7 @@ export default function Home() {
         <HomeCardCrowser6 />
         <p className='butHeading' >View All</p>
       </div>
+      <Footer/>
     </div>
   )
 }
