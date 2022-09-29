@@ -5,7 +5,9 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin: 1%;
     border: 1px solid white;
-
+    padding: 20px;
+    line-height: 25px;
+    
 }
 
 .myCard:hover {
@@ -19,6 +21,33 @@
 }
 
 .product-container {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 87%;
+    margin: auto;
+    height: 200px;
+    padding-bottom: 20px;
+}
+.product-container2 {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 87%;
+    margin: auto;
+    height: 200px;
+    padding-bottom: 20px;
+}
+.product-container3 {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 87%;
+    margin: auto;
+    height: 200px;
+    padding-bottom: 20px;
+}
+.product-container4 {
     display: flex;
     overflow: hidden;
     scroll-behavior: smooth;
@@ -58,4 +87,15 @@ button p {
 .pre-btn {
     left: 40px;
 
+}
+.end{
+    float: right;
+}
+.smallHand{
+    font-size: 12px;
+}
+
+.colv{
+    color: #8652ff;
+    font-weight: bold;
 }
