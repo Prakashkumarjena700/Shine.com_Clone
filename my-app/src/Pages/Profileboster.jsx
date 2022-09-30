@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/Navbar/SecondaryNavbar'
-import './JobseekingAssistance.css'
+// import './JobseekingAssistance.css'
 
 export default function Profileboster() {
     return (

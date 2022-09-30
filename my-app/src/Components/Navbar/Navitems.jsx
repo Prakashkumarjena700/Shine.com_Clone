@@ -48,7 +48,7 @@ export const JobSeekingAssistance=[
     {
         id:1,
         title:'Profile Booster',
-        path:'/profilebooster'  
+        path:'/profileboster'  
     },
     {
         id:2,
