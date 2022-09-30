@@ -1,20 +1,24 @@
-.searchInputBox{
+.searchInputBox {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     width: 60%;
     padding: 20px 100px;
     margin-left: 80px;
+    height: auto;
 
 }
-.searchInputBox input{
+
+.searchInputBox input {
     border: 1px solid rgba(128, 128, 128, 0.491);
-   width: 100%;
+    width: 100%;
     border-radius: 3px;
     padding: 5px;
     margin-bottom: 15px;
     font-size: 14px;
     margin-right: 100px;
+   
 }
-.searchInputBox button{
+
+.searchInputBox button {
     background-color: #8652ff;
     color: white;
     padding: 5px 10px;
@@ -22,23 +26,136 @@
     border-radius: 3px;
     font-weight: bold;
 }
-.SearchH1{
+
+.SearchH1 {
     font-weight: bold;
     font-size: 25px;
     margin: 20px 80px;
 }
-.SearchFirstFlex{
+
+.SearchFirstFlex {
     display: flex;
     gap: 30px;
     padding-left: 80px;
     margin: 20px 0px;
 }
-.SearchFirstFlex div{
+
+.SearchFirstFlex div {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     display: flex;
     align-items: center;
     padding-right: 20px;
 }
-.SearchFirstFlex div:hover{
+
+.SearchFirstFlex div:hover {
     color: #8652ff;
+}
+
+.jobalertHeading {
+    margin: 20px 50px;
+    color: gray;
+}
+
+.jobalertHeading h1:first-child {
+    font-size: 19px;
+}
+
+.jobalertHeading p:last-child {
+    font-size: 12px;
+}
+
+.jobalertBody {
+    background-color: #fbfbfb;
+}
+
+.jobFirstFlex {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.jobFirstFlex>div:first-child {
+    border: 1px solid rgba(128, 128, 128, 0.422);
+    background-color: white;
+    height: 100%;
+    width: 70%;
+    text-align: center;
+    padding: 20px 1px;
+}
+
+.jobFirstFlex>div:last-child {
+    margin-top: 100px;
+    border: 1px solid rgba(128, 128, 128, 0.406);
+    background-color: #f9fafe;
+    height: 40%;
+    width: 25%;
+    padding: 10px;
+}
+
+.jobFirstFlex button {
+    background-color: rgb(143, 227, 255);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.jobalertlable {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobalertlable input {
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.JobalertinputDiv {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.smletter{
+    font-size: 13px;
+}
+summary{
+    padding: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.514);
+}
+.jobalertLastBox{
+    border: 1px solid rgba(128, 128, 128, 0.484);
+    width: 64%;
+    background-color: white;
+    margin: 20px 50px;
+}
+.jobalertLastBox p{
+    font-size: 14px;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+.jobsFooter{
+    height: 200px;
+    width: 100%;
+    font-size: 13px;
+    display: flex;
+    border: 1px solid rgba(128, 128, 128, 0.326);
+}
+.jobsFooter div:first-child{
+    width: 75%;
+    padding: 20px;
+    line-height: 30px;
+}
+.jobsFooter div span{
+    color: #7d46ff;
+}
+.jobsFooter div:last-child{
+    padding: 30px 50px;
 }
