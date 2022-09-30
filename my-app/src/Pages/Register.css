@@ -1,0 +1,95 @@
+.RegnavTop {
+    display: flex;
+    padding: 5px;
+    font-weight: bold;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 60px;
+    color: rgb(103, 103, 103);
+    background-color: #f2f3f8;
+    font-size: 15px;
+}
+
+.RegnavBot {
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    padding-left: 50px;
+}
+
+.formDiv {
+    height: auto;
+    width: 75%;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.formDiv1 {
+    width: 75%;
+    height: 100%;
+}
+
+.formDiv1 h1 {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.formDiv1 p:nth-child(2) {
+    border: 1px solid #9060ff;
+    display: inline-block;
+    margin: 20px 0px 0px 28%;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.inputDiv {
+    padding: 0px 20px;
+}
+
+.inputDiv input {
+    width: 46%;
+    border: 1px solid rgba(128, 128, 128, 0.413);
+    margin: 10px;
+    outline: none;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+
+.formDiv2 img {
+    width: 16px;
+}
+
+.formDiv2 {
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.607);
+}
+
+.formDiv2>div {
+    border-left: 2px solid rgba(128, 128, 128, 0.416);
+
+}
+
+.formDiv2>div div {
+    display: flex;
+    padding: 5px 15px;
+    margin: 10px 40px;
+    gap: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 3px;
+}
+.extraInfo{
+    font-size: 10px;
+    color: rgba(128, 128, 128, 0.717);
+    margin-top: -10px;
+    margin-left: 10px;
+}

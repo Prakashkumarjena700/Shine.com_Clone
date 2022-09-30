@@ -1,0 +1,44 @@
+.searchInputBox{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 60%;
+    padding: 20px 100px;
+    margin-left: 80px;
+
+}
+.searchInputBox input{
+    border: 1px solid rgba(128, 128, 128, 0.491);
+   width: 100%;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    margin-right: 100px;
+}
+.searchInputBox button{
+    background-color: #8652ff;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.SearchH1{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 20px 80px;
+}
+.SearchFirstFlex{
+    display: flex;
+    gap: 30px;
+    padding-left: 80px;
+    margin: 20px 0px;
+}
+.SearchFirstFlex div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.SearchFirstFlex div:hover{
+    color: #8652ff;
+}

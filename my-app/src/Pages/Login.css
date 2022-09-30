@@ -1,0 +1,102 @@
+.loginBody{
+    background-image: url('https://www.theindiajobs.com/blog/wp-content/uploads/2018/05/Shine-2.png');
+}
+
+.loginDiv{
+    width: 64%;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.25) 200px 0px 100px, rgba(0, 0, 0, 0.12) 0px -102px 30px, rgba(0, 0, 0, 0.12) 0px 4px 100px, rgba(0, 0, 0, 0.17) 0px 12px 113px, rgba(0, 0, 0, 0.09) 0px -3px 115px;
+    margin: auto;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+.loginTopDiv{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    color: black;
+   
+}
+.loginTopDiv > div{
+    width: 50%;
+    padding: 0px 30px;
+}
+.loginTopDiv input{
+    border: 1px solid rgba(128, 128, 128, 0.53);
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    height: 35px;
+    padding-left: 10px;
+    outline: none;
+}
+.loginTopDiv h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.li{
+    border: 1px solid #9060ff;
+    width: 100%;
+    padding: 5px 0px;
+    margin-top: 20px;
+    border-radius: 3px;
+    background-color: #9060ff;
+    color: white;
+    font-weight: bold;
+}
+.li:hover{
+    background-color: #824ffb;
+    
+}
+.lio:hover{
+    color: white;
+    background-color: #824ffb;
+}
+.lio{
+    width: 100%;
+    padding: 5px 0px;
+    color: #9060ff;
+    border-radius: 3px;
+    border: 1px solid #9060ff;
+    font-weight: bold;
+}
+.loginDiv2{
+    border-left: 2px solid rgba(128, 128, 128, 0.379);
+}
+.loginDiv2 img{
+    height: 20px;
+}
+.loginDiv2>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 20px;
+   padding-top: 20%;
+}
+.loginDiv2>div>div{
+    display: flex;
+    width: 80%;
+    padding: 5px 10px;
+    gap: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.loginBotDiv{
+    background-color: #f3fbfd;
+    border-radius: 7px;
+    display: flex;
+    height: 12%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+}
+.registerBtn{
+    background-color: #9060ff;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+}
