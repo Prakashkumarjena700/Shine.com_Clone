@@ -1,0 +1,151 @@
+.profilebosterfirstFlex{
+    height: 300px;
+    background-color: #ecf7fd;
+    display: flex;
+    padding: 20px 60px;
+    margin-bottom: 20px;
+}
+.profilebosterfirstFlex div:first-child{
+    width: 60%;
+}
+.profilebosterfirstFlex h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.firstProfilebosterheading{
+    font-size: 40px;
+    font-weight: bold;
+    margin:20px 50px;
+}
+.secondProfilebosterheading{
+    box-shadow: 0px 0px 30px -18px rgba(0,0,0,0.4);
+    height: auto;
+    width: 90%;
+    margin: auto;
+    padding: 0px 30px;
+    font-size: 14px;
+}
+.secondProfilebosterheading > div{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.454);
+    height: 50px;
+    display: flex;     
+    color: rgb(104, 103, 103);                
+}
+.secondProfilebosterheading > div .firstDiv{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.secondProfilebosterheading > div .secondDiv{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+.secondProfilebosterheading > div .secondDiv img{
+    height: 20px;
+}
+.secondProfileDiv{
+    background-color: #fafaff;
+    box-shadow: 0px 0px 30px -18px rgba(0,0,0,0.4);
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px 10px;
+}
+.secondProfileDiv h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.secondProfileDiv button{
+    background-color: white;
+    margin: 10px;
+    padding: 0px 10px;
+    border: 1px solid rgba(190, 189, 189, 0.728);
+}
+.thirdProfileDiv{
+    box-shadow: 0px 0px 30px -18px rgba(0,0,0,0.4);
+    background-color: #ecf7fd;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.thirdProfileDiv > div:first-child{
+    height: 90px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 30px -18px rgba(0,0,0,0.4);
+}
+.btnv{
+    background-color: #9060ff;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btnv:hover{
+    background-color: #8550ff;
+}
+.thirdProfileDivSecond{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+.forthProfileDiv{
+    box-shadow: 0px 0px 30px -18px rgba(0,0,0,0.4);
+    padding: 10px;
+    width: 90%;
+    margin:10px auto 10px auto;
+    font-size: 14px;
+}
+.forthProfileDiv>div{
+    width: 100%;
+    height: 210px;
+    display: flex;
+    gap: 10px;
+}
+.forthProfileDiv>div>div{
+    width: 25%;
+    text-align: center;
+}
+.forthProfileDiv img{
+    opacity: 0.5;
+}
+.forthProfileDiv p{
+    color: gray;
+}
+.forthProfileDiv>div>div>div:first-child{
+    background-color: #eff1ff;
+    height: 45%;
+    width: 40%;
+    margin: auto;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.forthProfileDiv>div>div>div:last-child{
+    height: 50%;
+}
+.fifthProfileDiv{
+    box-shadow: 0px 0px 30px -18px rgba(0,0,0,0.4);
+    width: 90%;
+    height: auto;
+    margin: auto;
+    font-size: 14px;
+}
+.fifthProfileDiv details{
+    margin: 0px 30px;
+}
