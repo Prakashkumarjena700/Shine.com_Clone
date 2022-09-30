@@ -10,13 +10,15 @@ export default function Navbar() {
   const [coursesDropDown, setcoursesDropDown] = React.useState(false)
   return (
     <nav className='navbar' >
+      <div style={{display:'flex',padding:'2px',justifyContent:'flex-end',gap:'10px',paddingRight:'50px',backgroundColor:'#f2f3f8',fontWeight:'bold',color:'gray'}} >
+        <p>Download App</p>
+        <p>For Employers</p>
+        <p>Help</p>
+      </div>
       <div className='navTop' >
         <div className='navTop1' >
-          <img src="https://www.shine.com/next/static/images/shine-logo.png" alt="" />
-          <div className='searchBox' >
-            <span>job title, skills</span>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/VisualEditor_-_Icon_-_Search-big_-_white.svg/1200px-VisualEditor_-_Icon_-_Search-big_-_white.svg.png" alt="" />
-          </div>
+          <img  style={{marginRight:'74%'}} src="https://www.shine.com/next/static/images/shine-logo.png" alt="" />
+          
         </div>
         <div className='navTop2' >
          <Link to='/login' className='btn1' > <button>Login</button></Link>
@@ -24,9 +26,6 @@ export default function Navbar() {
           <img src="https://iconape.com/wp-content/files/cy/368009/svg/notifications-outline-logo-icon-png-svg.png" alt="" />
           <img src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" alt="" />
         </div>
-      </div>
-      <div className='navMid' >
-        <span style={{color:'gray'}} ><b>Trending:</b></span> | React Js | Android |  Marketing | Finance | HR
       </div>
       <ul className='nav-items' >
         {
