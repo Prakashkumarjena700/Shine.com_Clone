@@ -89,5 +89,19 @@ function MyCardHome6(props) {
   )
 }
 
+function ProfileBosterCard(props){
+  return(
+    <div className='ProfileBosterCard1' >
+      <p><strong>{props.title}</strong></p>
+      <img width='15px' style={{ display: 'inline-block',marginRight:'10px' }} src="https://www.pngall.com/wp-content/uploads/9/Golden-Star-PNG-Image-File.png" alt="" /> 
+      <span style={{fontSize:'14px'}} >{props.rating} </span>
+      <span style={{fontSize:'14px'}} >{props.date}</span>
+      <p>{props.dis}</p>
+      <br/>
+      <p style={{float:'right'}} >{props.reviewser}</p>
+    </div>
+  )
+}
 
-export { MyCardHome4, MyCardHome5, MyCardHome6 }
+
+export { MyCardHome4, MyCardHome5, MyCardHome6, ProfileBosterCard }

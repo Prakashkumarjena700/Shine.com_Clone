@@ -50,6 +50,14 @@ export const latest=[
     {img:'https://www.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fimages%2Fblog%2FDeal_with_toxic_manager.jpg&w=1920&q=75',title:'How To Deal With a Toxic Manager: Tips That Might Come Handy - Learning.Shine'},
     {img:'https://www.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fimages%2Fblog%2Fsalary_negotiation.jpg&w=1920&q=75',title:'How to Use a New Job Offer to Re-Negotiate Your Current Salary - Learning.Shine'},
     {img:'https://www.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fimages%2Fblog%2FAddress_Employment_Gap.jpg&w=1920&q=75',title:'Here’s How To Address An Employment Gap In a Job Interview - Learning.Shine'},
+    {img:'https://www.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fimages%2Fblog%2FAddress_Employment_Gap.jpg&w=1920&q=75',title:'Here’s How To Address An Employment Gap In a Job Interview - Learning.Shine'},
     
 
+]
+
+export const Reviews=[
+    {title:'Good Package',rating:'5',dis:'This service helped me with writing an apt resume along with a cover letter and I received better.',reviewser:'Manoj Chaturvedi',date:'10 Jan,2021'},
+    {title:'Resume Builder',rating:'5',dis:'HT Media content writers are good for visual resume as well as professional experiences resume',reviewser:'Sri Kumar',date:'10 Jan,2021'},
+    {title:'Good response',rating:'5',dis:'As a fresher, I am receiving more interview calls after upgrading and boosting my profile on shine.com',reviewser:'Satya',date:'16 Dec,2020'},
+    {title:'Value Addition',rating:'4',dis:'All the services provided in the combo add great value to your profile.',reviewser:'Chaya',date:'28 Feb,202'},
 ]

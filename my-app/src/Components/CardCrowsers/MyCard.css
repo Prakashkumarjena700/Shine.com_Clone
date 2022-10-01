@@ -35,6 +35,19 @@
     background-color: white;
     border-radius: 5px;
 }
+.ProfileBosterCard1{
+    min-width: 275px;
+    max-width: 200px;
+    height: 100%;
+    margin: 1%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px;
+}
 .myCard5 img{
     border-radius: 50%;
 }
@@ -101,6 +114,15 @@
     width: 87%;
     margin: auto;
     height: 280px;
+}
+.Profileboster_container{
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 87%;
+    margin: auto;
+    height: auto;
+    padding-top: 30px;
 }
 
 .product-carousel button {

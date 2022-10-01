@@ -17,7 +17,7 @@ export const NavItems=[
     {
         id:4,
         title:'COURSES',
-        path:'/'
+        path:'/courses'
     },
     {
         id:5,
@@ -53,7 +53,7 @@ export const JobSeekingAssistance=[
     {
         id:2,
         title:'Application Highlighter',
-        path:'/applicationhighlighter'  
+        path:'/applicationhighleter'  
     },
     {
         id:3,
@@ -63,7 +63,7 @@ export const JobSeekingAssistance=[
     {
         id:4,
         title:'View All',
-        path:'/jobseekingViewall'  
+        path:'/jobseekerviewall'  
     }
 ]
 
@@ -71,26 +71,26 @@ export const Courses=[
     {
         id:1,
         title:'Sale and Marketing',
-        path:'/saleandmarketing'  
+        path:'/salesandmarketing'  
     },
     {
         id:2,
         title:'Information and Technology',
-        path:'/informationandtechnology'  
+        path:'/salesandmarketing'  
     },
     {
         id:3,
         title:'Operation Management',
-        path:'/operationmanagement'  
+        path:'/salesandmarketing'  
     },
     {
         id:4,
         title:'Human Resources',
-        path:'/humanresources'  
+        path:'/salesandmarketing'  
     },
     {
         id:5,
         title:'View All',
-        path:'/coursesViewall'  
+        path:'/salesandmarketing'  
     },
 ]

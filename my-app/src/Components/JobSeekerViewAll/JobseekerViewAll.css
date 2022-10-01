@@ -1,0 +1,40 @@
+.jobseekerviewallCardContainer{
+    display: flex;
+    width: 80%;
+    gap: 50px;
+    margin: auto;
+}
+.jonseekerViewAllCard{
+    box-shadow: 1px 2px 49px -40px rgba(0,0,0,0.75);
+}
+.jonseekerViewAllCard> div{
+    padding: 15px;
+}
+.jonseekerViewAllCard> div .btn1{
+    color: #9060ff;
+    font-weight: bold;
+    font-size: 14px;
+}
+.jonseekerViewAllCard> div .btn2{
+    font-size: 14px;
+    background-color: #9060ff;
+    padding: 0px 10px;
+    color: white;
+    float: right;
+    border-radius: 3px;
+    font-weight: 500;
+}
+.jonseekerViewAllCard> div .btn2:hover{
+    background-color: #844fff;
+}
+
+.jonseekerViewAllCard> div>h1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.jonseekerViewAllCard> div>p:nth-child(2){
+    color: gray;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 10px 0px;
+}

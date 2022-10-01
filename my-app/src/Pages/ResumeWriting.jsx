@@ -4,7 +4,7 @@ import './JobseekingAssistance.css'
 import ProfileBosterCrowser from "../Components/CardCrowsers/ProfilebosterCrowser"
 import Footer from '../Components/Footer/Footer';
 
-export default function Profileboster() {
+export default function ResumeWriting() {
     return (
         <div>
             <Navbar />
@@ -12,15 +12,15 @@ export default function Profileboster() {
 
             <div className='profilebosterfirstFlex' >
                 <div>
-                    <h1>Profile Booster</h1>
-                    <p> <img width='15px' style={{ display: 'inline-block' }} src="https://www.pngall.com/wp-content/uploads/9/Golden-Star-PNG-Image-File.png" alt="" /> 4 (Bought by 179 people)</p>
-                    <p>With this service, you can improve your visibility to recruiters and get hired faster at Shine.  Profile Booster is a 15-day validity bouquet offering that helps you improve your profile and get better visibility with recruiters. ...</p>
+                    <h1 style={{ marginTop: '0px' }} >Resume Writing Service For Entry Level</h1>
+                    <p> <img width='15px' style={{ display: 'inline-block' }} src="https://www.pngall.com/wp-content/uploads/9/Golden-Star-PNG-Image-File.png" alt="" /> 4 (Bought by 1856 people)</p>
+                    <p>Get an excellent resume crafted to accomplish your goals with our resume writing services for entry-level professionals, which will help you to showcase your capabilities, skills to gain a job faster. Our resume writing experts Get an excellent resume crafted to accomplish your goals with our resume writing services ...</p>
                 </div>
                 <div>
-                    <img src="https://static1.shine.com/l/m/product_images/1643743291_2188.png" alt="" />
+                    <img src="https://static1.shine.com/l/m/product_images/1643715466_1827.png" alt="" />
                 </div>
             </div>
-            <h1 className='firstProfilebosterheading'>Why do you need Profile Booster ?</h1>
+            <h1 className='firstProfilebosterheading'>Why do you need Resume Writing ?</h1>
             <div className='secondProfilebosterheading' >
                 <div>
                     <div className='firstDiv'></div>
@@ -72,22 +72,49 @@ export default function Profileboster() {
                     </div>
                 </div>
             </div>
-            <div className='secondProfileDiv' >
-                <h1>Combo Includes</h1>
-                <button>Cover Letter</button><button>Resume Builder - 15 days</button><button>Featured Profile 15 Days</button><button>Application Highlighter - 15 Days</button>
-            </div>
-            <div className='thirdProfileDiv' >
-                <div>
-                    <img width='20px' src="https://beaconconverters.com/wp-content/uploads/2019/10/icon-bullet-point-300x288.png" alt="" />
-                    <p><strong>₹1999</strong></p>
+            <div className='thirdProfileDiv' style={{ marginTop: '50px' }} >
+                <h1 style={{ fontSize: '20px', fontWeight: 'bold' }} >Select Experience</h1>
+                <br />
+                <div style={{ backgroundColor: '#ecf7fd', marginLeft: '40px' }} >
+                    <div style={{ display: 'flex', gap: '20px', flexDirection: 'row', marginLeft: '-40px' }} >
+                        <div style={{ backgroundColor: 'white', padding: '10px', width: '100px', textAlign: 'center' }} >
+                            <img width='20px' style={{ marginLeft: '40%' }} src="https://beaconconverters.com/wp-content/uploads/2019/10/icon-bullet-point-300x288.png" alt="" />
+                            <p><strong>₹1299</strong></p>
+                            <p><>0-1 Year</></p>
+                        </div>
+                        <div style={{ backgroundColor: 'white', padding: '10px', width: '100px', textAlign: 'center' }}  >
+                            <img width='20px' style={{ marginLeft: '40%' }} src="https://beaconconverters.com/wp-content/uploads/2019/10/icon-bullet-point-300x288.png" alt="" />
+                            <p><strong>₹2199</strong></p>
+                            <p><>1-4 Years</></p>
+                        </div>
+                        <div style={{ backgroundColor: 'white', padding: '10px', width: '100px', textAlign: 'center' }} >
+                            <img width='20px' style={{ marginLeft: '40%' }} src="https://beaconconverters.com/wp-content/uploads/2019/10/icon-bullet-point-300x288.png" alt="" />
+                            <p><strong>₹2999</strong></p>
+                            <p><>4-8 Years</></p>
+                        </div>
+                        <div style={{ backgroundColor: 'white', padding: '10px', width: '100px', textAlign: 'center' }}  >
+                            <img width='20px' style={{ marginLeft: '40%' }} src="https://beaconconverters.com/wp-content/uploads/2019/10/icon-bullet-point-300x288.png" alt="" />
+                            <p><strong>3966</strong></p>
+                            <p><>8-15 Years</></p>
+                        </div>
+                        <div style={{ backgroundColor: 'white', padding: '10px', width: '100px', textAlign: 'center' }}  >
+                            <img width='20px' style={{ marginLeft: '40%' }} src="https://beaconconverters.com/wp-content/uploads/2019/10/icon-bullet-point-300x288.png" alt="" />
+                            <p><strong>₹4966</strong></p>
+                            <p><>15+ Years</></p>
+                        </div>
+                    </div>
+                        <h1 style={{ fontSize: '20px', fontWeight: 'bold',marginLeft:'-40px',marginTop:'20px' }} >Add on Services</h1>
+                    <div style={{marginLeft:'-40px'}} className='ResumeWirtingbtns' >
+                        <button>Cover Letter <strong>₹550</strong></button><button>Resume Booster <strong>₹1950</strong></button><button>Second regular resume <strong>₹1690</strong></button><button>Senior Level Experienced Professional <strong>₹6356</strong></button><br /><button>Executive Level <strong>₹5600</strong></button>
+                    </div>
                 </div>
                 <div className='thirdProfileDivSecond' >
-                    <strong>Total Price ₹1999 ₹2999 <span style={{ color: 'lightgreen' }} >(33% OFF)</span></strong>
+                    <strong>Total Price ₹21145 </strong>
                     <button className='btny' >Buy now</button>
                     <button className='btnv' >Talk to Expert</button>
                 </div>
             </div>
-            <p style={{ marginLeft: '60px' }} ><strong>How It Works</strong> &nbsp; &nbsp; FAQs &nbsp; &nbsp; Reviews</p>
+            <p style={{ marginLeft: '60px' }} ><strong>How It Works</strong> &nbsp; &nbsp; Reviews</p>
             <div className='forthProfileDiv' >
                 <h1 className='firstProfilebosterheading' >How It Works?</h1>
                 <div>
@@ -126,35 +153,11 @@ export default function Profileboster() {
                     </div>
                 </div>
             </div>
-            <div className='fifthProfileDiv' >
-                <h1 className='firstProfilebosterheading' >FAQs</h1>
-                <details>
-                    <summary><strong>Which all services are included in Profile Booster?</strong></summary>
-                    Profile Booster includes Application Highlighter, Featured Profile, Resume Builder and Cover Letter.
-                </details>
-                <details>
-                    <summary><strong>How can I use the Featured Profile?</strong></summary>
-                    After you purchase Shine Premium or Profile Booster, you will get a welcome call from one of our experts and then your featured profile will be activated for 15 days for Profile Booster, 30 days for Shine Premium Basic and for 60 days for Shine Premium Pro. With featured profile, your profile will be highlighted in recruiter’s search and will be among the first ones to be seen by recruiters every time you appear in a search, for the validity period of featured profile.
-                </details>
-                <details>
-                    <summary><strong>How can I use the Application Highlighter?</strong></summary>
-                    After you purchase Shine Premium or Profile Booster, application highlighter will be automatically activated for 15 days for Profile Booster, 30 days for Shine Premium Basic and for 60 days for Shine Premium Pro. With application highlighter, all the jobs you apply will be brought at the top amongst other applicants and will be highlighted to make you stand out to recruiters, for the validity period of application highlighter.
-                </details>
-                <details>
-                    <summary><strong>How can I use the Cover Letter?</strong></summary>
-                    After you purchase Shine Premium or Profile Booster, you will get a welcome call from one of our experts. We have a team of experts with extensive experience in resume and cover letter writing. The expert will help craft a professional cover letter for you.
-                </details>
-                <details>
-                    <summary><strong>How can I use the Resume Builder?</strong></summary>
-                    After you purchase Shine Premium or Profile Booster, your Resume Builder will be automatically activated for 15 days for Profile Booster, 30 days for Shine Premium Basic and for 60 days for Shine Premium Pro.
-
-                    You will get an option on the order summary page to build your resume using the resume builder. Select this option to go to resume builder page. Once you land on the resume builder page you can select a resume template to build your new awesome resume in just 2 steps and start impressing the employers.
-                </details>
-            </div>
+          
             <h1 className='firstProfilebosterheading' >Reviews</h1>
-            <ProfileBosterCrowser/>
-            <br/>
-            <Footer/>
+            <ProfileBosterCrowser />
+            <br />
+            <Footer />
         </div>
     )
 }
