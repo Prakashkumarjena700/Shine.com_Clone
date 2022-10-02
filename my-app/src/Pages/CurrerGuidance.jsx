@@ -1,12 +1,13 @@
 import React from 'react'
 import './CurrerGuidance.css'
+import {Link} from 'react-router-dom'
 
 export default function CurrerGuidance() {
   return (
     <div>
       <div className='navBar' >
         <div className='navBarfirst' >
-          <img src="https://static1.shine.com/l/m/vendor/1/1565168164_5076.jpg" alt="" />
+          <Link to='/' ><img src="https://static1.shine.com/l/m/vendor/1/1565168164_5076.jpg" alt="" /></Link>
         </div>
         <div className='navBarsecond' >
           <div className='inputBox' >
@@ -32,7 +33,72 @@ export default function CurrerGuidance() {
         <p>Data Science</p>
         <p>Analytic Vidya</p>
       </div>
-      <div className='CurrerDiv3' > </div>
+      <div className='CurrerDiv3'>
+        <img src="https://t3.ftcdn.net/jpg/03/21/08/88/360_F_321088857_PvlhS79x6x8zGEKBrXgMBvxIobbG2r0H.jpg" alt="" />
+        <p>Career Guidance with personalized recommendations</p>
+      </div>
+      <div className='CurrerDiv4' >
+        <h1><span style={{ backgroundColor: 'rgb(0, 81, 275)', color: 'white' }} >1</span> &nbsp; &nbsp; <span>2</span> &nbsp; &nbsp; <span>3</span> </h1>
+        <h1><strong>How can we help you?</strong></h1>
+        <p>Make your choice to go ahead</p>
+        <div className='Currer4steps' >
+          <div>
+            <img src="https://static1.shine.com/l/s/react/media/images/desktop/ui-list-icon1.png" alt="" />
+            <p>Find the right job</p>
+          </div>
+          <div>
+            <img src="https://static1.shine.com/l/s/react/media/images/desktop/ui-list-icon2.png" alt="" />
+            <p>Make a carrer change</p>
+          </div>
+          <div>
+            <img src="https://static1.shine.com/l/s/react/media/images/desktop/ui-list-icon3.png" alt="" />
+            <p>Improve your profile</p>
+          </div>
+          <div>
+            <img src="https://static1.shine.com/l/s/react/media/images/desktop/ui-list-icon4.png" alt="" />
+            <p>Progress your carrer</p>
+          </div>
+        </div>
+      </div>
+      <div className='coursesFooter' >
+        <div>
+          <div>
+            <p> About Us</p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Contact Us</p>
+            <p> Disclaimer</p>
+          </div>
+          <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ-jd1suyRRCv7pBatdrUISNjEfLvSWbZIagYw2Hk&s" alt="" />
+            <img src="https://simg.nicepng.com/png/small/28-284246_linkedin-01-icon-linkedin-white-color.png" alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPaDgOYO2lU-yVcjpUND1YIvv8EXwdlZKvs5IvT2eljw&s" alt="" />
+          </div>
+        </div>
+        <div>
+          <h1>TRENDING COURSES</h1>
+          <p>Education Verification Plus Package | IT Project Management Essentials | Marketing Essentials | Certified Manager for Quality and Organisational Excellence | Accounting Fundamentals | Leadership Essentials | Project Management for Non Project managers | Post Graduate Program in Data Engineering (ML Spzln) | Six Sigma Green Belt | Certificate in Team Management | Job and Interview Assistance | Communication Skills at Work place | Job and Interview Guidance Training | Interviewing and Hiring Test | Negotiation Skills | Certified Negotiation Manager </p>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img width='30px' src="https://www.nicepng.com/png/detail/110-1107325_secure-lock-icon.png" alt="" />
+            </div>
+            <div>
+              <p><strong>100% Secure Payment</strong></p>
+              <p style={{fontSize:'13px'}} >All major credit & debit cards accepted</p>
+            </div>
+          </div>
+          <div>
+            <p style={{fontSize:'13px'}} >Payment options</p>
+            <img width='150px' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbMqsD-ZmMAuMhxTvD0mLaCFAh8nOzOgTNLNjkkX8l1jGXE1xIXcjf6s4npgnvsUAmcw&usqp=CAU" alt="" />
+          </div>
+          <div>
+            <br />
+            <p style={{fontSize:'13px'}}  >Copyright © 2022 HT Media Limited.</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

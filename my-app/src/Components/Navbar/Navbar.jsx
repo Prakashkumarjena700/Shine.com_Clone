@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav className='navbar' >
       <div className='navTop' >
         <div className='navTop1' >
-          <img src="https://www.shine.com/next/static/images/shine-logo.png" alt="" />
+          <Link to='/' ><img width='80px' src="https://www.shine.com/next/static/images/shine-logo.png" alt="" /></Link>
           <div className='searchBox' >
             <span>job title, skills</span>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/VisualEditor_-_Icon_-_Search-big_-_white.svg/1200px-VisualEditor_-_Icon_-_Search-big_-_white.svg.png" alt="" />

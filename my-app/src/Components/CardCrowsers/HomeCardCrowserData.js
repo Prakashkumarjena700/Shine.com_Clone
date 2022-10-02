@@ -5,6 +5,7 @@ export const crowser1 = [
     { title: 'Senior Network Engineer', id: 4,com:'Adobe System',loc:'Banglore', exp:'3 to 5 Yrs' },
     { title: 'Automation and Manual Testing', id: 5 ,com:'JPMorgan',loc:'Chennai', exp:'3 to 4 Yrs'},
     { title: 'Automation and Manual Testing', id: 5 ,com:'JPMorgan',loc:'Chennai', exp:'3 to 4 Yrs'},
+    { title: 'Automation and Manual Testing', id: 5 ,com:'JPMorgan',loc:'Chennai', exp:'3 to 4 Yrs'},
 ]
 
 export const remoteJobs=[

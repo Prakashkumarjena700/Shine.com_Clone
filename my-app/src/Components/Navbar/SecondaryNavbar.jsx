@@ -16,10 +16,12 @@ export default function Navbar() {
         <p>Help</p>
       </div>
       <div className='navTop' >
+        <Link to='/' >
         <div className='navTop1' >
-          <img  style={{marginRight:'74%'}} src="https://www.shine.com/next/static/images/shine-logo.png" alt="" />
+          <img  style={{marginRight:'200%'}} src="https://www.shine.com/next/static/images/shine-logo.png" alt="" />
           
         </div>
+        </Link>
         <div className='navTop2' >
          <Link to='/login' className='btn1' > <button>Login</button></Link>
           <Link to='register' ><button className='btn2' >Register</button></Link>

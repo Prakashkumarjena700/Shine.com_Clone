@@ -46,12 +46,95 @@
     font-size: 13px;
     gap: 20px;
     padding: 20px;
-    background-color: aqua;
     height: 50px;
+    align-items: center;
 }
 
 .CurrerDiv3 {
-    height: 150px;
-    border: 1px solid red;
+    height: 130px;
     background: linear-gradient(90deg, rgba(165, 138, 241, 1) 35%, rgba(142, 63, 90, 1) 100%);
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    gap: 20px;
+    padding-left: 20px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.CurrerDiv3 img{
+    height: 40px;
+    border-radius: 50%;
+}
+.CurrerDiv4{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    bottom: 40px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.Currer4steps{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.Currer4steps div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-weight: 500;
+}
+.Currer4steps div img{
+    height: 90px;
+}
+.CurrerDiv4 span{
+    background-color: whitesmoke;
+    border-radius: 50%;
+    padding: 0px 6px;
+}
+.CurrerDiv4 h1{
+    margin-top: 20px;
+}
+.coursesFooter{
+    background-color: #f3f9fd;
+}
+.coursesFooter>div:first-child{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 14px;
+    color: rgb(99, 99, 99);
+}
+.coursesFooter>div:first-child div{
+    display: flex;
+    gap: 20px;
+}
+.coursesFooter>div:first-child img{
+    height: 20px;
+}
+.coursesFooter>div:nth-child(2){
+    border: 1px solid rgba(129, 128, 127, 0.349);
+}
+.coursesFooter>div:nth-child(2) h1{
+    font-weight: bold;
+    margin: 10px 20px;
+}
+.coursesFooter>div:nth-child(2) p{
+    font-size: 14px;
+    color: rgb(99, 99, 99);
+    margin: 10px 20px;
+}
+.coursesFooter>div:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.coursesFooter>div:nth-child(3)>div:first-child{
+    display: flex;
+    align-items: center;
 }
