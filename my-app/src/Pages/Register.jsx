@@ -33,8 +33,8 @@ export default function Register() {
           <div className='inputDiv'>
             <input type="text" placeholder='Name*' />
             <input type="text" placeholder='Mobile*' />
-            <input type="text" placeholder='Email*' />
-            <input type="Email" placeholder='Location*' />
+            <input type="password" placeholder='Password*' />
+            <input type="Email" placeholder='Email*' />
             <p className='extraInfo'>*Password link will be sent to this email</p>
             <input type="text" placeholder='Experience/Fresher*' />
             <input type="text" placeholder='highest Qualification' />
